@@ -11,8 +11,8 @@ const Navbar = ({ icon, title }) => {
   );
 };
 Navbar.defaultProps = {
-  title: "Gitlab Finder",
-  icon: "fab fa-gitlab"
+  title: "Github Find",
+  icon: "fab fa-github"
 };
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,

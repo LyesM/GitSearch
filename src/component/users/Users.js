@@ -18,7 +18,7 @@ const Users = ({ users, loading }) => {
 };
 Users.PropTypes = {
   users: PropTypes.array.isRequired,
-  loading: PropTypes.array.isRequired
+  loading: PropTypes.bool.isRequired
 };
 const userStyle = {
   display: "grid",
